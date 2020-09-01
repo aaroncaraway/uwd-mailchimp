@@ -54,13 +54,3 @@ app.post("/", (req, res) => {
 app.listen(4040, () => {
   console.log("listening on port 4040");
 });
-
-// API KEY
-// d7c987c229d9b70b68695e4eb012ee02-us17
-// LIST ID
-// 0234121c94
-
-// curl -X POST \
-//   'https://server.api.mailchimp.com/3.0/lists/{list_id}?skip_merge_validation=<SOME_BOOLEAN_VALUE>&skip_duplicate_check=<SOME_BOOLEAN_VALUE>' \
-//   -H 'authorization: Basic <USERNAME:PASSWORD>' \
-//   -d '{"members":[],"update_existing":false}'
